@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="#fff"
+              android:layout_width="match_parent"
+              android:layout_height="50dp">
+
+    <cn.examble.elemelayout.common.widget.ListTie
+            android:id="@+id/mListTie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>

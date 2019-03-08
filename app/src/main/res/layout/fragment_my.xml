@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+<LinearLayout
+        android:background="#f4f6f5"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:background="@color/elemeblue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+                android:src="@drawable/account"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="李紫霖"
+                    android:textSize="25dp"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="176****8848"
+                    android:textSize="15dp"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <ImageButton
+                android:background="@null"
+                android:src="@drawable/aji"
+                android:layout_margin="20px"
+                android:layout_width="70px"
+                android:layout_height="70px"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+        <cn.examble.elemelayout.common.widget.HorizontalListTie
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        <cn.examble.elemelayout.common.widget.HorizontalListTie
+                android:background="@drawable/border_line_arround"
+                android:gravity="center"
+                android:id="@+id/centerHorizontalListTie"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        <cn.examble.elemelayout.common.widget.HorizontalListTie
+                android:gravity="center"
+                android:id="@+id/endHorizontalListTie"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+        <ImageView
+                android:layout_marginLeft="35dp"
+                android:src="@drawable/icon_crown"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/centerTitle"
+                    android:textSize="16sp"
+                    android:text="成为超级会员，每月多拿20元红包"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            <TextView
+                    android:text="下单再返奖励金"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/myRec"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+</LinearLayout>
+</ScrollView>
