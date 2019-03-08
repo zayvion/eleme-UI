@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     /**
-     * 初始化Toolbar， title需要动态改变
+     * 初始化Toolbar，title需要动态改变
      */
     private fun initToolBar() {
         mainToolBar.title = "饿了么"
