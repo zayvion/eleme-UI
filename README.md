@@ -10,4 +10,4 @@
 - 自定义view
 
 ## 截图
-![image](https://github.com/zayvion/eleme-UI/raw/master/app/img/img1.png)
+<img src="https://github.com/zayvion/eleme-UI/raw/master/app/img/img1.png" height="40%" width="40%" />
