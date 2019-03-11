@@ -52,7 +52,7 @@ class MyFragment: BaseFragment<MyPresenter>(), MyView {
     }
 
     private fun initData(): List<ListTieModel> {
-        // 不想要subImg 就传0
+         // 不想要subImg 就传0
         return mutableListOf<ListTieModel>(
             ListTieModel(R.drawable.icon_heart, 0, ">", "我的收藏"),
             ListTieModel(R.drawable.anr, 0, ">", "我的客服"),
