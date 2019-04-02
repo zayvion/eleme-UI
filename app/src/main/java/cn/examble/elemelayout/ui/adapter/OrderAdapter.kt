@@ -12,7 +12,7 @@ import cn.examble.elemelayout.common.model.OrderModel
 
 /**
  * 求贤若饥 虚心若愚
- * @author JokerLiang
+ * @author ZayvionLiang
  * @date 2019-03-22 09:14
  */
 class OrderAdapter(private val orderModels: List<OrderModel>) : RecyclerView.Adapter<OrderAdapter.ViewHoler>(){

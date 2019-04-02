@@ -38,8 +38,8 @@ class OrderFragment: BaseFragment<OrderPresenter>() {
     private fun initData(): List<OrderModel> {
         // 不想要subImg 就传0
         return mutableListOf(
-            OrderModel(R.drawable.account, "老地方私房菜1", "2019-03-12 11:29", "麻辣鸡丁", "订单已取消", "￥7", false),
-            OrderModel(R.drawable.account, "老地方私房菜2", "2019-03-12 11:29", "麻辣鸡丁", "订单已取消", "￥7", true),
+            OrderModel(R.drawable.account, "老地方私房菜", "2019-03-12 11:29", "正宗烧鸭饭-酸梅酱", "订单已取消", "￥7", false),
+            OrderModel(R.drawable.account, "庸记烧鹅", "2019-03-12 18:29", "麻辣鸡丁", "订单已取消", "￥7", true),
             OrderModel(R.drawable.account, "老地方私房菜3", "2019-03-12 11:29", "麻辣鸡丁", "订单已取消", "￥7", false),
             OrderModel(R.drawable.account, "老地方私房菜4", "2019-03-12 11:29", "麻辣鸡丁", "订单已取消", "￥7", true),
             OrderModel(R.drawable.account, "老地方私房菜", "2019-03-12 11:29", "麻辣鸡丁", "订单已取消", "￥7", true),
